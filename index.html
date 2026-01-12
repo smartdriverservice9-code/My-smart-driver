@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Driver Service – Book Driver Now</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}
+body{background:#f9f9f9;color:#333}
+header{
+  background:#000;
+  color:#fff;
+  padding:20px;
+  text-align:center
+}
+header h1{font-size:28px;margin-bottom:8px}
+header p{font-size:14px;color:#ccc}
+
+.btn{
+  display:inline-block;
+  margin:10px;
+  padding:14px 22px;
+  border-radius:6px;
+  text-decoration:none;
+  font-weight:bold;
+  color:#fff
+}
+.call{background:#28a745}
+.whatsapp{background:#25D366}
+
+section{padding:30px 20px}
+h2{text-align:center;margin-bottom:20px}
+
+.services{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+  gap:15px
+}
+.service{
+  background:#fff;
+  padding:20px;
+  text-align:center;
+  border-radius:10px;
+  box-shadow:0 2px 6px rgba(0,0,0,0.1)
+}
+
+form{
+  background:#fff;
+  padding:20px;
+  border-radius:10px;
+  max-width:400px;
+  margin:0 auto;
+  box-shadow:0 2px 6px rgba(0,0,0,0.1)
+}
+input,button{
+  width:100%;
+  padding:12px;
+  margin:10px 0;
+  border-radius:5px;
+  border:1px solid #ccc
+}
+button{
+  background:#000;
+  color:#fff;
+  border:none;
+  font-size:16px
+}
+
+.map iframe{
+  width:100%;
+  height:300px;
+  border:0;
+  border-radius:10px
+}
+
+footer{
+  background:#000;
+  color:#fff;
+  text-align:center;
+  padding:15px;
+  font-size:14px
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>🚗 Smart Driver Service</h1>
+  <p>Professional & Verified Drivers – 24×7 Available</p>
+  <a class="btn call" href="tel:+918910287978">📞 Call Now</a>
+  <a class="btn whatsapp" href="https://wa.me/918910287978?text=Hi%20I%20want%20to%20book%20a%20driver">💬 WhatsApp Book</a>
+</header>
+
+<section>
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="service">🚗 Hourly Driver</div>
+    <div class="service">🛣 Outstation Driver</div>
+    <div class="service">🌙 Night Driver</div>
+    <div class="service">🏢 Corporate Driver</div>
+  </div>
+</section>
+
+<section>
+  <h2>Book a Driver</h2>
+  <form onsubmit="sendWhatsApp(); return false;">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="tel" id="phone" placeholder="Phone Number" required>
+    <input type="text" id="pickup" placeholder="Pickup Location" required>
+    <input type="datetime-local" id="time" required>
+    <button type="submit">Book via WhatsApp</button>
+  </form>
+</section>
+
+<section class="map">
+  <h2>Service Area</h2>
+  <iframe 
+    src="https://www.google.com/maps?q=Kolkata&output=embed">
+  </iframe>
+</section>
+
+<footer>
+  © 2026 Smart Driver Service | Call: +91 8910287978
+</footer>
+
+<script>
+function sendWhatsApp(){
+  let name=document.getElementById("name").value;
+  let phone=document.getElementById("phone").value;
+  let pickup=document.getElementById("pickup").value;
+  let time=document.getElementById("time").value;
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Driver Service</title>  <!-- =====================
+       MOBILE-FIRST CSS
+  ====================== -->  <style>
+    :root {
+      --primary: #0a66ff;
+      --dark: #111;
+      --light: #f7f7f7;
+      --success: #0bbf6a;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: var(--light);
+      color: var(--dark);
+    }
+
+    header {
+      background: var(--primary);
+      color: #fff;
+      padding: 16px;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .container {
+      padding: 16px;
+      max-width: 480px;
+      margin: auto;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 16px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+
+    h2 {
+      font-size: 18px;
+      margin-bottom: 12px;
+    }
+
+    label {
+      font-size: 14px;
+      margin-bottom: 6px;
+      display: block;
+    }
+
+    input, select, textarea, button {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 12px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 15px;
+    }
+
+    button {
+      background: var(--primary);
+      color: #fff;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:active {
+      transform: scale(0.98);
+    }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Driver Service</title>
+<style>
+  /* Mobile-first CSS */
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+  }
+  header {
+    background: #007bff;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  main {
+    padding: 1rem;
+  }
+  .input-group {
+    margin-bottom: 1rem;
+  }
+  input, button {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    margin-top: 0.25rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  button {
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    background: #0056b3;
+  }
+  #map {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+  }
+  .confirmation {
+    background: #d4edda;
+    color: #155724;
+    padding: 0.75rem;
+    border-radius: 5px;
+    display: none;
+  }
+</style>
+</head>
+<body>
+
+<header>Smart Driver Service</header>
+<main>
+  <div class="input-group">
+    <label>Pickup Location</label>
+    <input id="pickup" type="text" placeholder="Enter pickup location">
+  </div>
+  <div class="input-group">
+    <label>Drop Location</label>
+    <input id="drop" type="text" placeholder="Enter drop location">
+  </div>
+  <div id="map"></div>
+  <div class="input-group">
+    <label>Contact Number</label>
+    <input id="contact" type="tel" placeholder="Enter mobile number">
+  </div>
+  <button id="bookBtn">Book Driver</button>
+  <div class="confirmation" id="confirmation">Booking Confirmed!</div>
+</main>
+
+<script>
+  let map, pickupMarker, dropMarker;
+  
+  function initMap() {
+    map = new google.maps.Map(document.getElementById("map"), {
+      center: { lat: 20.5937, lng: 78.9629 }, // India center
+      zoom: 5,
+    });
+
+    const pickupInput = document.getElementById("pickup");
+    const dropInput = document.getElementById("drop");
+
+    const pickupAutocomplete = new google.maps.places.Autocomplete(pickupInput);
+    const dropAutocomplete = new google.maps.places.Autocomplete(dropInput);
+
+    pickupAutocomplete.addListener("place_changed", () => {
+      const place = pickupAutocomplete.getPlace();
+      if (!place.geometry) return;
+      if (pickupMarker) pickupMarker.setMap(null);
+      pickupMarker = new google.maps.Marker({
+        position: place.geometry.location,
+        map: map,
+        label: "P",
+      });
+      map.panTo(place.geometry.location);
+      map.setZoom(12);
+    });
+
+    dropAutocomplete.addListener("place_changed", () => {
+      const place = dropAutocomplete.getPlace();
+      if (!place.geometry) return;
+      if (dropMarker) dropMarker.setMap(null);
+      dropMarker = new google.maps.Marker({
+        position: place.geometry.location,
+        map: map,
+        label: "D",
+      });
+      map.panTo(place.geometry.location);
+      map.setZoom(12);
+    });
+  }
+
+  document.getElementById("bookBtn").addEventListener("click", () => {
+    const pickup = document.getElementById("pickup").value;
+    const drop = document.getElementById("drop").value;
+    const contact = document.getElementById("contact").value;
+    if (!pickup || !drop || !contact) {
+      alert("Please fill all fields!");
+      return;
+    }
+    // Here you can integrate Firebase / backend API to save booking
+    document.getElementById("confirmation").style.display = "block";
+  });
+</script>
+
+<!-- Replace YOUR_API_KEY with your actual Google Maps JS API key -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5I3n29qZF7hUIy5wrSco5zz-wamiJOCc&libraries=places&callback=initMap" async defer></script>
+
+</body>
+</html>🫤
+    .success {
+     
+  let msg=`Hi, I want to book a driver.%0AName: ${name}%0APhone: ${phone}%0APickup: ${pickup}%0ADate/Time: ${time}`;
+  window.open("https://wa.me/919<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Driver Service</title>
+<style>
+  /* Mobile-first CSS */
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+  }
+  header {
+    background: #007bff;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  main {
+    padding: 1rem;
+  }
+  .input-group {
+    margin-bottom: 1rem;
+  }
+  input, button {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    margin-top: 0.25rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  button {
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    background: #0056b3;
+  }
+  #map {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+  }
+  .confirmation {
+    background: #d4edda;
+    color: #155724;
+    padding: 0.75rem;
+    border-radius: 5px;
+    display: none;
+  }
+</style>
+</head>
+<body>
+
+<header>Smart Driver Service</header>
+<main>
+  <div class="input-group">
+    <label>Pickup Location</label>
+    <input id="pickup" type="text" placeholder="Enter pickup location">
+  </div>
+  <div class="input-group">
+    <label>Drop Location</label>
+    <input id="drop" type="text" placeholder="Enter drop location">
+  </div>
+  <div id="map"></div>
+  <div class="input-group">
+    <label>Contact Number</label>
+    <input id="contact" type="tel" placeholder="Enter mobile number">
+  </div>
+  <button id="bookBtn">Book Driver</button>
+  <div class="confirmation" id="confirmation">Booking Confirmed!</div>
+</main>
+
+<script>
+  let map, pickupMarker, dropMarker;
+  
+  function initMap() {
+    map = new google.maps.Map(document.getElementById("map"), {
+      center: { lat: 20.5937, lng: 78.9629 }, // India center
+      zoom: 5,
+    });
+
+    const pickupInput = document.getElementById("pickup");
+    const dropInput = document.getElementById("drop");
+
+    const pickupAutocomplete = new google.maps.places.Autocomplete(pickupInput);
+    const dropAutocomplete = new google.maps.places.Autocomplete(dropInput);
+
+    pickupAutocomplete.addListener("place_changed", () => {
+      const place = pickupAutocomplete.getPlace();
+      if (!place.geometry) return;
+      if (pickupMarker) pickupMarker.setMap(null);
+      pickupMarker = new google.maps.Marker({
+        position: place.geometry.location,
+        map: map,
+        label: "P",
+      });
+      map.panTo(place.geometry.location);
+      map.setZoom(12);
+    });
+
+    dropAutocomplete.addListener("place_changed", () => {
+      const place = dropAutocomplete.getPlace();
+      if (!place.geometry) return;
+      if (dropMarker) dropMarker.setMap(null);
+      dropMarker = new google.maps.Marker({
+        position: place.geometry.location,
+        map: map,
+        label: "D",
+      });
+      map.panTo(place.geometry.location);
+      map.setZoom(12);
+    });
+  }
+
+  document.getElementById("bookBtn").addEventListener("click", () => {
+    const pickup = document.getElementById("pickup").value;
+    const drop = document.getElementById("drop").value;
+    const contact = document.getElementById("contact").value;
+    if (!pickup || !drop || !contact) {
+      alert("Please fill all fields!");
+      return;
+    }
+    // Here you can integrate Firebase / backend API to save booking
+    document.getElementById("confirmation").style.display = "block";
+  });
+</script>
+
+<!-- Replace YOUR_API_KEY with your actual Google Maps JS API key -->
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places&callback=initMap" async defer></script>
+
+</body>
+</html>8910287978?text="+msg,"_blank");
+}
+</script>
+
+</body>
+</html>766771
